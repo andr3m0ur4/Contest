@@ -6,22 +6,33 @@
     <title>Projeto 01</title>
     <meta name="description" content="Descrição do meu website">
     <meta name="keywords" content="palavras-chave, do, meu, site">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">Logomarca</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/andre-moura-white.png" alt="Logomarca" class="image">
+            </div>
+            <nav>
+                <div class="botao-menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="banner-principal">
+        <div class="overlay"></div>
         <div class="container">
             <form action="">
                 <h2>Qual é o seu melhor e-mail?</h2>
@@ -42,35 +53,35 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident quidem officia in laudantium consequuntur exercitationem, aliquam quos laboriosam quia illum quisquam pariatur soluta neque ex facilis. Harum, ut culpa? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum corporis tempore quidem qui non ipsam, assumenda saepe, architecto ipsa voluptatum sequi accusamus dignissimos dolorem eaque autem magnam dolores laboriosam sint!
                 </p>
             </div>
-        </div>
 
-        <div class="w-50">
-            <img src="./images/André-Moura.jpg" alt="">
+            <div class="w-50 right">
+                <img src="./images/André-Moura.jpg" alt="Foto de Perfil" class="image">
+            </div>
         </div>
     </section>
 
     <section class="especialidades">
-        <div class="container">
         <h2 class="title">Especialidades</h2>
-            <div class="box-especialidade">
-                <h3>Icone1</h3>
-                <h3>CSS3</h3>
+        <div class="container">
+            <div class="box-especialidade w-33">
+                <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
+                <h4>CSS3</h4>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio excepturi aspernatur doloribus recusandae, a dolorum qui natus eos voluptate sunt voluptatibus reiciendis quisquam velit doloremque modi eum consectetur commodi! Veritatis?
                 </p>
             </div>
 
-            <div class="box-especialidade">
-                <h3>Icone2</h3>
-                <h3>HTML5</h3>
+            <div class="box-especialidade w-33">
+                <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
+                <h4>HTML5</h4>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio excepturi aspernatur doloribus recusandae, a dolorum qui natus eos voluptate sunt voluptatibus reiciendis quisquam velit doloremque modi eum consectetur commodi! Veritatis?
                 </p>
             </div>
 
-            <div class="box-especialidade">
-                <h3>Icone3</h3>
-                <h3>JavaScript</h3>
+            <div class="box-especialidade w-33">
+                <h3><i class="fa fa-codepen" aria-hidden="true"></i></h3>
+                <h4>JavaScript</h4>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio excepturi aspernatur doloribus recusandae, a dolorum qui natus eos voluptate sunt voluptatibus reiciendis quisquam velit doloremque modi eum consectetur commodi! Veritatis?
                 </p>
@@ -81,7 +92,7 @@
     <section class="extras">
         <div class="container">
             <div class="w-50">
-                <h2 class="title">Depoimentos</h2>
+                <h2 class="title">Depoimentos dos Clientes</h2>
                 <div class="depoimento-single">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum facilis dolorum voluptatem consequuntur deleniti neque saepe labore, soluta numquam! Nostrum ullam porro iusto iure aut obcaecati? Doloribus impedit atque commodi!
@@ -125,7 +136,7 @@
 
     <footer>
         <div class="container">
-            <p>Todos os direitos reservados</p>
+            <p>André Moura - Todos os direitos reservados</p>
         </div>
     </footer>
     
